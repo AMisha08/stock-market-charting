@@ -1,0 +1,207 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+a.nav-link {
+  color: whitesmoke;
+}
+a.nav-link.active {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  border-radius: 0.25rem;
+}
+
+.plots {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+}
+
+.plots div {
+  margin: 20px;
+}
+
+.repo1 td {
+  padding: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+button {
+  font-size: medium;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 1px black;
+}
+
+input {
+  font-size: medium;
+  border: none;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+select {
+  font-size: medium;
+  border: none;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.navButtons {
+  border: none;
+  margin: 25px;
+  height: 100px;
+  width: 100px;
+}
+
+textarea {
+  font-size: medium;
+  border: none;
+  padding: 5px;
+  margin: 2px;
+}
+
+.submitBtn {
+  border: none;
+  padding: 10px;
+}
+
+.submitBtn:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 1px black;
+}
+
+.savecompany {
+  padding: 10px;
+  max-width: 1000px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.navTabs {
+  padding: 10px;
+  max-width: 1000px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.analyseList {
+  padding: 10px;
+  max-width: 900px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.analysePlate {
+  padding: 10px;
+  max-width: 1000px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.navButtons {
+  border: none;
+  padding: 5px;
+  margin: 1px;
+  height: 30px;
+  width: 200px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.companyTab {
+  padding: 10px;
+  margin: 1px;
+  border-radius: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ipoTab {
+  padding: 10px;
+  margin: 1px;
+  border-radius: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.companyTab div {
+  padding: 2px;
+}
+
+.companyTab:hover {
+  box-shadow: -1px -1px 1px black;
+}
+
+.companydetail {
+  padding: 10px;
+  max-width: 1000px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.user {
+  max-width: 400px;
+  padding: 7px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  margin: 0px auto;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.user button {
+  border: none;
+}
+
+.title {
+  max-width: 1000px;
+  width: max-content;
+  margin: 0px auto;
+}
+
+.navbar {
+  padding: 0px 10px 0px 10px;
+  /* max-width:1012px; */
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.navbar a {
+  margin: 1px;
+  padding: 5px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  text-align: center;
+  text-decoration: none;
+  /* color:white; */
+  border-radius: 10px 10px 0px 0px;
+}
+
+.active {
+  /* background-color:#b779f1; */
+  position: relative;
+  top: 3px;
+}
