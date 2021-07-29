@@ -13,9 +13,9 @@ class AddSector extends Component {
     console.log("sector");
     console.log(data);
     sendData(JSON.stringify(data)).then((res) => {
-      window.location.href = "http://localhost:3000/sectors";
+      window.location.href = "https://stock-market-charting-frontend.herokuapp.com/sectors";
     });
-    window.location.href = "http://localhost:3000/sectors";
+    window.location.href = "https://stock-market-charting-frontend.herokuapp.com/sectors";
   }
 
   render() {

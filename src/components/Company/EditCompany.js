@@ -44,7 +44,7 @@ class EditCompany extends Component {
     };
     console.log(data);
     sendData(JSON.stringify(data)).then((res) => {
-      window.location.href = "http://localhost:3000/companies";
+      window.location.href = "https://stock-market-charting-frontend.herokuapp.com/companies";
     });
   }
 

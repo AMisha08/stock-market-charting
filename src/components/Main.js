@@ -47,7 +47,7 @@ export default class Main extends Component {
     localStorage.removeItem("name");
     localStorage.removeItem("role");
     localStorage.removeItem("jwt");
-    window.location.href = "http://localhost:3000/";
+    window.location.href = "https://stock-market-charting-frontend.herokuapp.com/";
   }
 
   onSignUp(event) {
@@ -64,9 +64,9 @@ export default class Main extends Component {
 
       signup(JSON.stringify(data)).then((res) => {
         if (res.id && res.role) {
-          window.location.href = "http://localhost:3000/login";
+          window.location.href = "https://stock-market-charting-frontend.herokuapp.com/login";
         } else {
-          window.location.href = "http://localhost:3000/login";
+          window.location.href = "https://stock-market-charting-frontend.herokuapp.com/login";
         }
       });
     }
@@ -87,7 +87,7 @@ export default class Main extends Component {
         this.setState({
           loggedin: true,
         });
-        window.location.href = "http://localhost:3000/companies";
+        window.location.href = "https://stock-market-charting-frontend.herokuapp.com/companies";
       } else {
         //alert("Invalid Credentials");
       }

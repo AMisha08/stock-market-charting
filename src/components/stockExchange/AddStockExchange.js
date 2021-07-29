@@ -14,12 +14,12 @@ class AddStockExchange extends Component {
     };
     sendData(JSON.stringify(data)).then((res) => {
       //alert("Exchange Added Successfully with Id : "+res.id);
-      window.location.href = "http://localhost:3000/exchanges";
+      window.location.href = "https://stock-market-charting-frontend.herokuapp.com/exchanges";
     });
   }
 
   goToCompanyList = () => {
-    window.location.href = "http://localhost:3000/exchanges";
+    window.location.href = "https://stock-market-charting-frontend.herokuapp.com/exchanges";
   };
 
   render() {

@@ -32,7 +32,7 @@ class AddIpoDetail extends Component {
     };
     sendData(JSON.stringify(data)).then((res) => {
       //alert("IPO Added Successfully with Id : "+res.id);
-      window.location.href = "http://localhost:3000/ipos";
+      window.location.href = "https://stock-market-charting-frontend.herokuapp.com/ipos";
     });
   }
 

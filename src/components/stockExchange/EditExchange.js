@@ -31,12 +31,12 @@ class EditExchange extends Component {
       remark: event.target.elements.remark.value,
     };
     sendData(JSON.stringify(data)).then((res) => {
-      window.location.href = "http://localhost:3000/exchanges";
+      window.location.href = "https://stock-market-charting-frontend.herokuapp.com/exchanges";
     });
   }
 
   goToCompanyList = () => {
-    window.location.href = "http://localhost:3000/exchanges";
+    window.location.href = "https://stock-market-charting-frontend.herokuapp.com/exchanges";
   };
 
   render() {

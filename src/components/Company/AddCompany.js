@@ -33,12 +33,12 @@ class AddCompany extends Component {
     };
     sendData(JSON.stringify(data)).then((res) => {
       //alert("Company Added Successfully with Id : "+res.id);
-      window.location.href = "http://localhost:3000/companies";
+      window.location.href = "https://stock-market-charting-frontend.herokuapp.com/companies";
     });
   }
 
   goToCompanyList = () => {
-    window.location.href = "http://localhost:3000/companies";
+    window.location.href = "https://stock-market-charting-frontend.herokuapp.com/companies";
   };
 
   render() {
