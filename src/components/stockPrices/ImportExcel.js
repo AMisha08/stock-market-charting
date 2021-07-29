@@ -241,10 +241,10 @@ function finalData(data) {
       console.log(datee);
 
       let pojo = {
-        exchangename: element[1].trim(),
-        companycode: element[0].trim(),
-        date: datee.trim(),
-        time: element[4].trim(),
+        stockExchangeName: element[1].trim(),
+        companyCode: element[0].trim(),
+        stockPriceDate: datee.trim(),
+        stockPriceTime: element[4].trim(),
         shareprice: element[2].trim(),
       };
 
